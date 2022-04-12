@@ -6,13 +6,11 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 00:42:27 by wwan-taj          #+#    #+#             */
-/*   Updated: 2021/06/22 03:29:57 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/04/12 16:00:17 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdio.h>
 
 void	*ft_memmove(void *dst, const void *src, size_t n)
 {

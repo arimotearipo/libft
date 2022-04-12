@@ -1,36 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memccpy.c                                       :+:      :+:    :+:   */
+/*   ft_strdupnonl.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/06/15 03:19:03 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/04/12 16:01:09 by wwan-taj         ###   ########.fr       */
+/*   Created: 2021/06/18 18:03:40 by wwan-taj          #+#    #+#             */
+/*   Updated: 2022/04/05 12:55:26 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memccpy(void *dst, const void *src, int c, size_t n)
+char	*ft_strdupnonl(const char *s)
 {
-	size_t			i;
-	unsigned char	*newsrc;
-	unsigned char	*newdst;
+	int		count;
+	int		i;
+	char	*news;
 
-	newsrc = (unsigned char *)src;
-	newdst = (unsigned char *)dst;
-	i = 0;
-	if (!dst && !src)
-		return (NULL);
-	while (i < n)
+	count = 0;
+	while (s[count] != '\0' && s[count] != '\n')
 	{
-		newdst[i] = newsrc[i];
-		if (newdst[i] == (unsigned char)c)
-		{
-			return (&newdst[i + 1]);
-		}
+		count++;
+	}
+	news = malloc(sizeof(char) * (count + 1));
+	if (!news)
+		return (NULL);
+	i = 0;
+	while (i < count)
+	{
+		news[i] = s[i];
 		i++;
 	}
-	return (NULL);
+	news[i] = '\0';
+	return (news);
 }
