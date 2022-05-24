@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
-/*   Updated: 2021/07/01 21:26:09 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/05/24 13:16:07 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ size_t			ft_strlen(const char *s);
 char			*ft_strnstr(char *str, const char *to_find, size_t n);
 char			*ft_strrchr(const char *str, int c);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
+int				ft_strccmp(const char *s1, const char *s2);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
 void			*ft_calloc(size_t b, size_t size);
