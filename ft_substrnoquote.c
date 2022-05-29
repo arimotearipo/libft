@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/25 14:38:28 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/05/25 18:22:00 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/05/29 15:45:23 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,11 @@ char    *ft_substrnoquote(char const *s, unsigned int start, size_t len)
     i = 0;
     while (len--)
     {
+		while (s[start] == '\'' || s[start] == '"')
+			start++;
         str[i] = s[start];
         i++;
         start++;
-        if ((s[start] == '\'' || s[start] == '"') && (s[start + 1] > 32))
-        {
-            if ((s[start + 1] == '\'' || s[start + 1] == '"'))
-                start += 2;
-            else
-                start += 1;
-        }
     }
     str[i] = '\0';
     return (str);
