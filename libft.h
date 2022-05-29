@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/05/25 14:39:49 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/05/29 19:00:43 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ void			*ft_memcpy(void *dst, const void *src, size_t n);
 void			*ft_memmove(void *dst, const void *src, size_t n);
 void			*ft_memset(void *str, int c, size_t len);
 char			*ft_strchr(const char *s, int c);
+int				ft_strchri(char *str, int startindex, char c);
 size_t			ft_strlcat(char *dest, const char *src, size_t size);
 size_t			ft_strlcpy(char *d, const char *s, size_t n);
 size_t			ft_strlen(const char *s);
@@ -49,7 +50,7 @@ int				ft_toupper(int c);
 void			*ft_calloc(size_t b, size_t size);
 char			*ft_strdup(const char *s);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
-char			 *ft_substrnoquote(char const *s, unsigned int start, size_t len);
+char			*ft_substrnoquote(char const *s, unsigned int s, size_t len);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s1, char const *set);
 char			**ft_split(char const *s, char c);
