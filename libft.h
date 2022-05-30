@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/05/29 19:00:43 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/05/30 12:23:58 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ int				ft_toupper(int c);
 void			*ft_calloc(size_t b, size_t size);
 char			*ft_strdup(const char *s);
 char			*ft_substr(char const *s, unsigned int start, size_t len);
-char			*ft_substrnoquote(char const *s, unsigned int s, size_t len);
+char			*ft_substrnoquote(char const *s, unsigned int st, size_t len);
 char			*ft_strjoin(char const *s1, char const *s2);
 char			*ft_strtrim(char const *s1, char const *set);
 char			**ft_split(char const *s, char c);
