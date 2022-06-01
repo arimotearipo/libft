@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 16:18:54 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/01 16:21:25 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/01 16:33:58 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_strcchr(char *s1, char *s2, char c)
 	int	i;
 
 	i = 0;
-	while (s1[i] != '\0' && s1[i] != c)
+	while (s1[i] != '\0' && s1[i] != c && s2[i] != '\0')
 	{
 		if (s1[i] != s2[i])
 			return (s1[i] - s2[i]);
