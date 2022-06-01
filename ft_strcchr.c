@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/01 16:18:54 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/01 16:33:58 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/01 18:09:00 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,15 @@
 
 int	ft_strcchr(char *s1, char *s2, char c)
 {
-	int	i;
+	int		i;
+	int		res;
+	char	*str;
 
 	i = 0;
-	while (s1[i] != '\0' && s1[i] != c && s2[i] != '\0')
-	{
-		if (s1[i] != s2[i])
-			return (s1[i] - s2[i]);
+	while (s1[i] != '\0' && s1[i] != c)
 		i++;
-	}
-	return (0);
+	str = ft_substr(s1, 0, i);
+	res = ft_strcmp(str, s2);
+	free(str);
+	return (res);
 }
