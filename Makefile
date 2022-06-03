@@ -6,14 +6,18 @@
 #    By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/06/29 00:14:58 by wwan-taj          #+#    #+#              #
+<<<<<<< HEAD
 #    Updated: 2022/06/04 02:03:15 by wwan-taj         ###   ########.fr        #
+=======
+#    Updated: 2022/06/01 16:22:15 by wwan-taj         ###   ########.fr        #
+>>>>>>> 0a8f2ddb272c88d4197c097b1bc27b90c88b7f77
 #                                                                              #
 # **************************************************************************** #
 
 
 SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft_split.c \
 					ft_strlcat.c ft_strncmp.c ft_strcmp.c ft_substr.c ft_atoi.c ft_isalpha.c \
-					ft_itoa.c ft_memcpy.c  ft_putendl_fd.c ft_strchr.c  ft_strlcpy.c \
+					ft_itoa.c ft_memcpy.c  ft_putendl_fd.c ft_strchr.c  ft_strlcpy.c ft_strcchr.c \
 					ft_strnstr.c ft_tolower.c ft_bzero.c   ft_isascii.c ft_memccpy.c \
 					ft_memmove.c ft_putnbr_fd.c  ft_strdup.c ft_strdupnonl.c \
 					ft_strlen.c  ft_2darrlen.c ft_strlennonl.c ft_strrchr.c ft_strchri.c \
