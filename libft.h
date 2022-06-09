@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/09 15:52:55 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/09 18:44:19 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int				ft_strchri(char *str, int startindex, char c);
 size_t			ft_strlcat(char *dest, const char *src, size_t size);
 size_t			ft_strlcpy(char *d, const char *s, size_t n);
 size_t			ft_strlen(const char *s);
-void			ft_append2d(char **arr, char *str);
+void			ft_append2d(char ***arr, char *str);
 int				ft_2darrlen(char **arr);
 void			free2d(char **arr);
 char			*ft_strnstr(char *str, const char *to_find, size_t n);
