@@ -6,7 +6,11 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2022/06/09 13:26:05 by wwan-taj         ###   ########.fr       */
+=======
+/*   Updated: 2022/06/04 02:05:13 by wwan-taj         ###   ########.fr       */
+>>>>>>> dcc4f593862e75eeb2751b9f1c2d35c1c15dd75b
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +46,7 @@ int				ft_strchri(char *str, int startindex, char c);
 size_t			ft_strlcat(char *dest, const char *src, size_t size);
 size_t			ft_strlcpy(char *d, const char *s, size_t n);
 size_t			ft_strlen(const char *s);
+int				ft_2darrlen(char **arr);
 char			*ft_strnstr(char *str, const char *to_find, size_t n);
 char			*ft_strrchr(const char *str, int c);
 int				ft_strcchr(char *s1, char *s2, char c);
