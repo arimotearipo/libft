@@ -5,7 +5,7 @@ SRCS			=	ft_isalnum.c ft_strisnum.c ft_isprint.c ft_memcmp.c  ft_putchar_fd.c ft
 					ft_memmove.c ft_putnbr_fd.c  ft_strdup.c ft_strdupnonl.c \
 					ft_strlen.c  ft_2darrlen.c ft_strlennonl.c ft_strrchr.c ft_strchri.c \
 					ft_toupper.c ft_calloc.c  ft_isdigit.c ft_memchr.c  ft_memset.c  \
-					ft_putstr_fd.c  ft_strjoin.c ft_strmapi.c ft_strtrim.c \
+					ft_putstr_fd.c  ft_strjoin.c ft_strmapi.c ft_strtrim.c free2d.c ft_append2d.c \
 
 OBJS			= $(SRCS:.c=.o)
 
