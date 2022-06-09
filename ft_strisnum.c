@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 13:17:52 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/09 13:19:39 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/09 15:49:52 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@ int	ft_strisnum(char *str, int sign)
 		i++;
 	while (str[i])
 	{
-
 		if (str[i] < '0' || str[i] > '9')
 			return (0);
 		i++;
