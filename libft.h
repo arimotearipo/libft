@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/01 16:21:54 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/09 13:26:05 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int				ft_isalnum(int c);
 int				ft_isalpha(int c);
 int				ft_isascii(int c);
 int				ft_isdigit(int c);
+int				ft_strisnum(char *str, int sign);
 int				ft_isprint(int c);
 void			*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void			*ft_memchr(const void *s, int c, size_t n);
