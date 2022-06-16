@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/22 20:25:01 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/09 18:44:19 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/16 16:24:44 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ int				ft_strcchr(char *s1, char *s2, char c);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_strcmp(const char *s1, const char *s2);
 int				ft_tolower(int c);
+char			*ft_strtolower(char *str);
 int				ft_toupper(int c);
 void			*ft_calloc(size_t b, size_t size);
 char			*ft_strdup(const char *s);
