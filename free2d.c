@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 15:47:33 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/09 15:48:30 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/26 21:01:07 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	free2d(char **arr)
 {
 	int	i;
 
+	if (arr == NULL)
+		return ;
 	i = 0;
 	while (arr[i] != NULL)
 	{

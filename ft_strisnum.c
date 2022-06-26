@@ -6,7 +6,7 @@
 /*   By: wwan-taj <wwan-taj@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 13:17:52 by wwan-taj          #+#    #+#             */
-/*   Updated: 2022/06/09 15:49:52 by wwan-taj         ###   ########.fr       */
+/*   Updated: 2022/06/26 21:00:55 by wwan-taj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 
 // Will check whether the string passes as *str argument is a number or not.
 // The sign argument is an option whether it should accept either a positive
-// or negative sign in front or not.
+// or negative sign in front or not. Will return 0 if str is not numeric and
+// will return 1 if it is numeric.
 int	ft_strisnum(char *str, int sign)
 {
 	int	i;
